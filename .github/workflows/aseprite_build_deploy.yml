@@ -55,7 +55,7 @@ jobs:
           ${{ steps.version_info.outputs.version_info }}
         draft: true
         prerelease: false
-  
+ #commit changes  
   build-aseprite:
     name: Build Aseprite
     needs: check-version
